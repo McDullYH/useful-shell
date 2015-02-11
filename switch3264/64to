@@ -1,0 +1,3 @@
+sudo cp -f /home/yaohao/utils/switch3264/gcc64 /usr/bin/gcc
+sudo cp -f /home/yaohao/utils/switch3264/g++64 /usr/bin/g++
+sudo cp -f /home/yaohao/utils/switch3264/ld64 /usr/bin/ld
