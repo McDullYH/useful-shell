@@ -1,3 +1,3 @@
 #!/bin/sh
 
-ld.bin $@  
+ld.yh $@  
