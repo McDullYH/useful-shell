@@ -4,9 +4,9 @@ if [ -e /usr/bin/ld.yh ];then
 echo "exist!"
 exit
 else
-echo "now copy"
-sudo cp -f  /usr/bin/gcc /usr/bin/gcc.yh
-sudo cp -f  /usr/bin/g++ /usr/bin/g++.yh
-sudo cp -f /usr/bin/ld	/usr/bin/ld.yh
+echo "now rename"
+sudo mv   /usr/bin/gcc /usr/bin/gcc.yh
+sudo mv   /usr/bin/g++ /usr/bin/g++.yh
+sudo mv  /usr/bin/ld	/usr/bin/ld.yh
 fi
 
